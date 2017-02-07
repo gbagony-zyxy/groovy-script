@@ -1,2 +1,4 @@
 rootProject.name = 'ch02'
+include 'googlechart'
+include 'groovybaseball'
 

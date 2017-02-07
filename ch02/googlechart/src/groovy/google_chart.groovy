@@ -1,4 +1,4 @@
-package wxz
+package groovy
 
 import groovy.swing.SwingBuilder
 
