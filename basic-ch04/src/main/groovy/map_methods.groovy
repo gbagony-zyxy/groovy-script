@@ -1,5 +1,6 @@
 /**
  * 映射方法一览
+ * 高野健一
  */
 
 //containsKey,containsValue,get,getAt,KeySet,put,putAt,size,values方法
@@ -12,4 +13,18 @@ println alphabet.get(0)
 println alphabet.get('a')
 println alphabet.get('e','balala')
 println alphabet.getAt(1)
+
+//put()
+println alphabet.put('wh','wywh')
+println alphabet.put(5,55555)
+println alphabet
+println alphabet.putAt('jj','gg')
+println alphabet
+
+println alphabet.size()
+println alphabet['b']
+//获取所有键或值
 println alphabet.keySet()
+println alphabet.values()
+//value()返回包含映射值的一个集合，可以将其作为一个list看待
+println alphabet.values().asList().size()
