@@ -3,6 +3,7 @@ import groovy.transform.Immutable
 /**
  * Created by gbagony on 2017/2/16.
  */
+//@Immutable修饰的类相当于添加了final关键字并且类中字段也全部为final类型
 @Immutable
 class FixedBook{
     String title;
