@@ -1,3 +1,5 @@
+import java.util.regex.Matcher
+
 /**
  * Created by ruyin on 2017/3/3.
  *
@@ -30,6 +32,9 @@ assert pattern[0] == ['a:1','a','1']
 //定义的类型不会显式去转换
 assert pattern[2][2] == '3'
 //assert pattern[2][2] == 3
+//println pattern.index
+println Matcher.lastMatcher
+
 
 //pattern同样可以应用于Matcher的each方法
 pattern.each { full,key,value ->
